@@ -1,1 +1,4 @@
-ÿþ
+Flask
+Flask-Mail
+Werkzeug
+gunicorn
