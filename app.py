@@ -49,7 +49,7 @@ def register():
     verification_codes[email] = verification_code
 
     msg = Message('Email Verification', sender='ram.coding8@gmail.com', recipients=[email])
-    msg.body = f'Hello {username},\n\nPlease verify your email address by clicking the link below:\n\nhttp://localhost:5000/verify_email/{verification_code}\n\nThank you!'
+    msg.body = f'Hello {username},\n\nPlease verify your email address by clicking the link below:\n\nhttps://easy-user-verification.onrender.com/verify_email/{verification_code}\n\nThank you!'
     mail.send(msg)
 
     return jsonify({'success': True})
