@@ -21,8 +21,8 @@ This project is a simple Flask web application that allows users to register, re
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/shahram8708//Easy-User-Verification.git
-   cd your-repository
+   git clone https://github.com/shahram8708/Easy-User-Verification.git
+   cd Easy-User-Verification
    ```
 
 2. **Create a Virtual Environment**
